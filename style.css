@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Space Mono", monospace;
+  background-color: #fcfcfc;
+  background-image: radial-gradient(#d1d5db 1px, transparent 1px);
+  background-size: 20px 20px;
+  color: #1a1a1a;
+}
+
+button {
+  cursor: pointer;
+}
+
+.sketch-font {
+  font-family: "Patrick Hand", cursive;
+}
+.sketch-border {
+  border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+}
+.sketch-border-sm {
+  border-radius: 25px 5px 22px 5px / 5px 22px 5px 25px;
+}
+.sketch-border-reverse {
+  border-radius: 15px 225px 15px 255px / 255px 15px 225px 15px;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  border-left: 2px solid black;
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: black;
+  border: 2px solid black;
+  border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #333;
+}
+
+.paper-texture {
+  background-color: #fff;
+  background-image: linear-gradient(#eee 0.1em, transparent 0.1em);
+  background-size: 100% 1.2em;
+}
